@@ -1,3 +1,5 @@
+// src/components/products/product.jsx
+
 import { Link } from "react-router-dom";
 import { useParams, useNavigate, Navigate } from "react-router-dom";
 

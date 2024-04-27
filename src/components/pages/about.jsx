@@ -1,3 +1,5 @@
+// src/components/pages/about.jsx
+
 export default function About() {
     return (
         <section>

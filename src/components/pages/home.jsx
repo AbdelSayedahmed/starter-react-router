@@ -1,3 +1,5 @@
+// src/components/pages/home.jsx
+
 export default function Home() {
     return (
         <section>

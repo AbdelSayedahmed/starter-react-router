@@ -1,4 +1,4 @@
-
+// src/components/pages/newsletter.jsx
 
 export default function NewsLetter() {
     return (

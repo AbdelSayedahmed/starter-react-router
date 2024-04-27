@@ -1,3 +1,5 @@
+// src/components/products/productList.jsx
+
 import { Link } from "react-router-dom";
 
 export default function ProductList({ products, type }) {
