@@ -25,6 +25,14 @@ function App() {
               <Route path="/about" element={<About />} />
               <Route path="/newsletter" element={<Newsletter />} />
               <Route
+                path="/lamps"
+                element={<ProductList products={lamps} type={"Lamps"} />}
+              />
+              <Route
+                path="/candles"
+                element={<ProductList products={candles} type={"Candles"} />}
+              />
+              <Route
                 path="/lamps/:id"
                 element={<Product products={lamps} type={"Lamps"} />}
               />

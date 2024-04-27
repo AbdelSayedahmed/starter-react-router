@@ -6,14 +6,18 @@ export default function ProductList({ products, type }) {
       <h2>All {type}</h2>
       <article className="products">
         <ul>
-          <li key={product.id}>
-            <Link to={`/${type.toLowerCase()}/${product.id}`}>
-              <h4>{product.name}</h4>
-              <h4>
-                <img src={product.image} alt={product.name} />
-              </h4>
-            </Link>
-          </li>
+          {products.map((product) => {
+            return (
+              <li key={product.id}>
+                <Link to={`/${type.toLowerCase()}/${product.id}`}>
+                  <h4>{product.name}</h4>
+                  <h4>
+                    <img src={product.image} alt={product.name} />
+                  </h4>
+                </Link>
+              </li>
+            );
+          })}
         </ul>
       </article>
     </section>
